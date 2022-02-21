@@ -1,0 +1,65 @@
+    1  history
+    2  mkdir unix_tests
+    3  cd unix_tests
+    4  cat > skills2.txt
+    5  cat >> skills2.txt
+    6  cat | sort skills2.txt
+    7  cat | sort head -3 skills2.txt > top_skills.txt 
+    8  cat | sort | head -3 skills2.txt > top_skills.txt
+    9  ls
+   10  cat top_skills.txt
+   11  cat skills2.txt | sort | head -3 > top_skills.txt
+   12  cat top_skills.txt
+   13  cat > phrases2.txt
+   14  grep -in "br" phrases2.txt
+   15  grep -in "br" phrases2.txt | wc -l
+   16  grep -iv "br" phrases2.txt | wc -l
+   17  cat >> phrases2.txt
+   18  cat phrases2.txt top_skills.txt > bunch_of_things.txt
+   19  cat | sort > bunch_of_things.txt
+   20  cat bunch_of_things.txt
+   21  ls
+   22  cat bunch_of_things.txt
+   23  cat phrases2.txt top_skills.txt >> bunch_of_things.txt
+   24  cat bunch_of_things.txt
+   25  cat | sort > bunch_of_things.txt
+   26  cat bunch_of_things.txt
+   27  cat phrases2.txt top_skills.txt >> bunch_of_things.txt
+   28  cat | sort bunch_of_things.txt
+   29  cat bunch_of_things.txt
+   30  ls -l
+   31  chmod 444 bunch_of_things.txt
+   32  ls -l
+   33  chmod 644 bunch_of_things.txt
+   34  ls -l
+   35  ps
+   36  sleep 30 &
+   37  ps
+   38  kill 30201
+   39  ps
+   40  sleep 30 &
+   41  ps
+   42  kill 30211
+   43  ps
+   44  sleep 30
+   45  bg sleep 30
+   46  ps
+   47  sleep 30
+   48  bg sleep 30
+   49  ps
+   50  sleep 300 &
+   51  sleep 200
+   52  sleep 100
+   53  jobs
+   54  fg %2
+   55  bg sleep 100
+   56  jobs
+   57  fg sleep 100
+   58  bg %4
+   59  kill %2 %3 %4
+   60  jobs
+   61  kill %2
+   62  kill -9 %2 %3
+   63  jobs
+   64  cd ..
+   65  history > comm-hist-part1-2-3.txt

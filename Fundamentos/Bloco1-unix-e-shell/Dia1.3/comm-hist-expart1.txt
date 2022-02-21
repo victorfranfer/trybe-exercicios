@@ -1,0 +1,299 @@
+    1  killall gnome-software
+    2  sudo rm -rf ~ / . local 
+    3  killall snap-store
+    4  gnome-language-selector
+    5  killall snap-store
+    6  snap-store
+    7  sudo apt-get install ubuntu-restricted-extras
+    8  sudo apt-get update
+    9  sudo apt-get ubuntu-restricted-extras
+   10  sudo apt-get install ubuntu-restricted-extras
+   11  sudo apt install ubuntu-restricted-extras
+   12  sudo dpkg -i google-chrome-stable_current_amd64.deb
+   13  wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+   14  sudo dpkg -i google-chrome-stable_current_amd64.deb
+   15  curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+   16  wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+   17  nvm install 14
+   18  nvm install 14
+   19  nvm list
+   20  node -v
+   21  npm -v
+   22  command -v nvm
+   23  chrome
+   24  Google Chrome
+   25  zoom
+   26  cd /
+   27  ls
+   28  ls -a
+   29  cd home
+   30  ls
+   31  cd vitonxu
+   32  cd /
+   33  cd vitonxu
+   34  ls
+   35  cd home
+   36  ls
+   37  cd vitonxu
+   38  clear
+   39  ls
+   40  cd Music
+   41  mkdir trybe
+   42  ls
+   43  cd trybe
+   44  cd .
+   45  cd ..
+   46  ls-a
+   47  ls
+   48  cd trybe
+   49  ls
+   50  pwd
+   51  cd /
+   52  ls
+   53  cd home
+   54  ls
+   55  cd vitonxu
+   56  ls
+   57  cd Music
+   58  ls
+   59  cd ..
+   60  clear
+   61  ls
+   62  cd home
+   63  cd vitonxu
+   64  cd ..
+   65  ls
+   66  cd vitonxu
+   67  cd Music
+   68  ls
+   69  cd trybe
+   70  ls
+   71  touch
+   72  touch --help
+   73  clear
+   74  cd ..
+   75  ls
+   76  cd Pictures
+   77  ls
+   78  cp Screenshot from 2022-02-16 14-40-07.png Screenshot1.png
+   79  ls
+   80  cp Screenshot1.png Screenshot2.png
+   81  l
+   82  ls
+   83  cat Screenshot1.png
+   84  clear
+   85  cat Screenshot2.png
+   86  clear
+   87  ls
+   88  mv Screenshot2.png /home/vitonxu/Music
+   89  ls
+   90  cd ..
+   91  ls
+   92  cd Music
+   93  ls
+   94  rm Screenshot2.png
+   95  ls
+   96  rmdir trybe
+   97  ls
+   98  rmdir Pictures
+   99  cd ..
+  100  cd Pictures
+  101  cd ..
+  102  rmdir Pictures
+  103  ls
+  104  cd Documents
+  105  cat > arquivo1.txt
+  106  ls
+  107  cat arquivo1.txt
+  108  ls -l
+  109  ls
+  110  ls -I
+  111  ls -l arquivo1.txt
+  112  clear
+  113  cd ..
+  114  cd home
+  115  cd vitonxu
+  116  cd Documents
+  117  ls
+  118  cat arquivo1.txt
+  119  cat > arquivo1.txt
+  120  cat arquivo1.txt
+  121  less arquivo1.txt
+  122  less arquivo1.txt
+  123  cat arquivo1.txt
+  124  cat > arquivo1.txt
+  125  cat arquivo1.txt
+  126  head arquivo1.txt
+  127  head -5 arquivo1.txt
+  128  tail arquivo1.txt
+  129  head -3 arquivo1.txt
+  130  head -9 arquivo1.txt
+  131  tail -3 arquivo1.txt
+  132  clear
+  133  less arquivo1.txt
+  134  grep a arquivo1.txt
+  135  grep -i 'Vasco Santos' arquivo1.txt
+  136  grep -i 'bahia' arquivo1.txt
+  137  grep -iv 'bahia' arquivo1.txt
+  138  grep -in 'bahia' arquivo1.txt
+  139  grep -c 'a' arquivo1.txt
+  140  grep -ic 'bahia' arquivo1.txt
+  141  clear
+  142  wc arquivo1.txt
+  143  wc -w arquivo1.txt
+  144  wc -c arquivo1.txt
+  145  wc -l arquivo1.txt
+  146  clear
+  147  ls
+  148  cd ..
+  149  ls
+  150  cd Music
+  151  mkdir trybe
+  152  ls
+  153  cd ..
+  154  cd Music
+  155  ls *
+  156  ls
+  157  ls *
+  158  cd ..
+  159  ls *
+  160  clear
+  161  ls ?rybe
+  162  ls ?usic
+  163  ls M?sic
+  164  ls ?????
+  165  ls ?????????
+  166  cd Music
+  167  cd ..
+  168  cd Documents
+  169  ls .txt
+  170  ls ?.txt
+  171  ls arquivo?.txt
+  172  clear
+  173  man
+  174  man ls
+  175  man sudo
+  176  whatis cp
+  177  whatis sudo
+  178  whatis ls
+  179  apropos copy
+  180  apropos create
+  181  clear
+  182  apropos execute
+  183  cd ..
+  184  apt-get install git
+  185  # add-apt-repository ppa:git-core/ppa # apt update; apt install git
+  186  # apt-get install git
+  187  apt-get install git
+  188  add-apt-repository ppa:git-core/ppa # apt update; apt install git
+  189  cd ..
+  190  add-apt-repository ppa:git-core/ppa # apt update; apt install git
+  191  clear
+  192  cd /
+  193  ls
+  194  cd home
+  195  ls
+  196  cd ..
+  197  cd usr
+  198  ls
+  199  cd /
+  200  ls
+  201  cd home
+  202  ls
+  203  cd vitonxu
+  204  ls
+  205  mkdir Trybe
+  206  ls
+  207  cd Trybe
+  208  mkdir Bloco1
+  209  ls
+  210  cd Bloco1
+  211  clear
+  212  mkdir Dia1.3
+  213  ls
+  214  cd Dia1.3
+  215  mkdir unix_tests
+  216  touch trybe.txt
+  217  ls
+  218  cd ..
+  219  ls
+  220  cd Dia1.3
+  221  clear
+  222  pwd
+  223  history
+  224  clear
+  225  apt-get install git
+  226  cd /
+  227  apt-get install git
+  228  sudo apt install git
+  229  apt-get install git
+  230  git --version
+  231  clear
+  232  ls
+  233  cd home
+  234  sl
+  235  ls
+  236  cd vitonu
+  237  cd vitonxu
+  238  ls
+  239  cd Trybe
+  240  ls
+  241  cd Bloco1
+  242  ls
+  243  cd Dia1.3
+  244  ls
+  245  cd Trybe/Trybe-exercicios
+  246  ls
+  247  cd Fundamentos
+  248  ls
+  249  mkdir Bloco2-git-e-github
+  250  mv Bloco2-git-e-github Bloco2-git-github-e-internet
+  251  ls
+  252  cd Bloco1-unix-e-shell/
+  253  ls
+  254  cd Dia1.3/
+  255  ls
+  256  cd unix_tests
+  257  ls
+  258  touch trybe.txt
+  259  ls
+  260  cp trybe.txt trybe_backup.txt
+  261  ls
+  262  mv trybe.txt trybe2.txt
+  263  ls
+  264  mkdir backup
+  265  ls
+  266  mv trybe_backup.txt backup
+  267  ls
+  268  mkdir backup2
+  269  ls
+  270  cd backup
+  271  mv trybe_backup.txt ../unix_tests/backup2
+  272  mv trybe_backup.txt ../backup2/
+  273  ls
+  274  cd ..
+  275  ls
+  276  cd backup2
+  277  ls
+  278  cd ..
+  279  rm backup
+  280  rm -rf backup
+  281  ls
+  282  mv backup2 backup
+  283  ls
+  284  pwd
+  285  ls
+  286  rm backup
+  287  rm -r backup
+  288  ls
+  289  clear
+  290  touch skills.txt
+  291  cat > skills.txt
+  292  ls
+  293  head -5 skills.txt
+  294  tail -4 skills.txt
+  295  ls
+  296  rm *.txt
+  297  ls
+  298  cd ..
+  299  history > history.txt
