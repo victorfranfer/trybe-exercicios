@@ -1,0 +1,46 @@
+Ideias para o seminário
+
+T1 - O que é a arquitetura Cliente/Servidor?
+
+Essa é uma barraquinha de cachorro quente. Nela trabalha apenas Paulo. Todos os dias, Paulo recebe diferentes pessoas em sua barraquinha e precisa servi-las de acordo com seus pedidos. 
+
+É assim que funciona a arquitetura Cliente/Servidor. Ela permite com que os clientes façam requisições aos servidores, que por sua vez retornam as informações solicitadas pelos clientes.
+
+Um cliente pode ser uma máquina, como computadores, celulares, etc, ou um software que faça requisições a um servidor via internet, como por exemplo um Web Browser.
+
+Um servidor é um software que recebe as requests e devolve as informações e funcionalidades solicitadas pelos clientes. As máquinas que rodam os servidores são supercomputadores que também são chamados de servidores porque são dedicados a rodar esses programas servidores.
+
+Voltando à barraca de hot dog: Quando Paulo consegue atender a diversos clientes diferentes com eficiência. Mas seu negócio está crescendo e está ficando difícil que ele sozinho atenda todos os pedidos de seus clientes, que chegam cada vez mais. Não basta apenas ele servir seus clientes, ele precisa de outras pessoas trabalhando ali, e cada uma servirá a um propósito específico. Paulo ficará anotando os pedidos, João será o caixa, Matheus preparará as salsichas, Augusto montará os sanduíches. 
+
+Da mesma maneira, que a nova equipe montada por Paulo, existem diversos tipos de servidores. Por exemplo, Web Servers respondem a requisições HTTP, Servidores de Base de Dados gerenciam os dados que devem ser acessados em diferentes páginas, etc.
+
+Um servidor pode conter recursos web, hospedar aplicações, guardar dados de usuário e de programas, etc. Cada servidor serve a múltiplos clientes e está sempre recebendo requests e as respondendo.
+
+A arquitetura Cliente/Servidor, então, funciona baseada em dois grupos de computadores e programas: clientes, que enviam requests, e servidores, que respondem a essas requests. 
+
+Este é só uma das diversas formas de os computadores se comunicarem via web.
+
+T2 - DNS e registros de domínio - O que são?
+
+Imagina que estamos em 1998 e você é um taxista. Um passageiro entra no carro e diz: "Quero ir para casa do Marinho". Quê? Onde é a casa do Marinho? Como eu chego lá? E que diabos é esse Marinho?.
+
+Claro que hoje em dia temos aplicativos que já indicam os endereços dos passageiros, mas no passado não era assim.
+
+E é para evitar situações como essas que foi criado o DNS, Domain Name System. O DNS liga uma url, ou a "casa do Marinho" a um endereço de IP, "o endereço de destino do passageiro". 
+
+Quando digitamos 'betrybe.com' no nosso browser, essa requisição passa pelo Recursive Name Server, geralmente gerenciado pelo provedor de internet, ou até por servidores públicos. 
+
+Caso o servidor do nosso provedor não encontre o endereço, a request é enviada para algum Route Server, que gerenciam requisições para domínios como .com ou .org. 
+
+Depois disso a request é enviada para o servidor do domínio desejado, por exemplo, .com, que envia a request para um Autoritative Name Server, que tem o papel de encontrar o endereço de IP e outras informações e enviServer.
+
+O Recursive Name Server e o seu computador armazenam estas informações por um tempo para agilizar o acesso ao site no futuro, que é o que chamamos de cache. 
+
+Quando temos algum problema, como por exemplo, um site muda o seu endereço de IP nossa máquina tenta acessá-lo pelos dados armazenados em cache, o site não é encontrado, ocasionando o famoso erro 404.
+
+Resumindo, o DNS é o sistema que traduz o que o passageiro diz ao taxista exatamente o endereço para onde ele deve levá-lo. 
+
+T3 - Quais os tipos de resposta HTTP?
+
+T4 - Diferenças entre HTTP e HTTPS?
+

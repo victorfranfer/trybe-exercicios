@@ -1,0 +1,29 @@
+﻿T2 - DNS e registros de domínio - O que são?
+
+
+Imagina que estamos em 1998 e você é um taxista. Um passageiro entra no carro e diz: "Quero ir para casa do Marinho". Quê? Onde é a casa do Marinho? Como eu chego lá? E que diabos é esse Marinho?.
+
+
+E é para evitar situações como essas que foi criado o DNS, Domain Name System. O DNS liga uma url, ou a "casa do Marinho" a um endereço de IP, "o endereço de destino do passageiro". 
+
+
+Resumindo, o DNS é o sistema que traduz o que o passageiro diz ao taxista exatamente o endereço para onde ele deve levá-lo. 
+
+
+Mas o que é um domínio?
+
+
+Domínio é um registro único na internet, e antes de poder utilizá-lo devemos verificar se este domínio está disponível. Um exemplo de local para verificar um domínio está disponível seria o site “registro.br”.
+Ao contratar um local para hospedar um site, eles irão lhe fornecer um DNS, que será vinculado ao domínio que você adquirir.
+
+
+Quando digitamos ‘betrybe.com’ no nosso browser, essa requisição passa por um servidor, geralmente gerenciado pelo provedor de internet, que verifica em seu catálogo se encontra o endereço de IP atrelado à url.
+
+
+Se não encontrar, a request é enviada a outro servidor, especializado em domínios específicos, como o .com ou .org. Este servidor encontra as informações do IP e envia de volta ao provedor de internet, que repassa ao seu computador. 
+
+
+Quando acessamos um site, nossa máquina e o servidor do provedor armazenam a informação para agilizar o acesso. É o que chamamos de cache.
+
+
+Quando temos algum problema, como por exemplo, um site muda o seu endereço de IP nossa máquina tenta acessá-lo pelos dados armazenados em cache, o site não é encontrado, ocasionando o famoso erro 404.
