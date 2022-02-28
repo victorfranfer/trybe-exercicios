@@ -16,3 +16,6 @@ li:active {
     font-family:'Courier New', Courier, monospace;
     font-weight: 300;
 }
+li{
+    list-style:none;
+}
