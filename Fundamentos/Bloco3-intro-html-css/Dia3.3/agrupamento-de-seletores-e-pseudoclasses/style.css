@@ -1,0 +1,21 @@
+body{
+    background-color: darkslategrey;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:silver;
+}
+
+
+h1, p{
+    text-align:center;
+}
+li:hover{
+    background-color:silver;
+    color: darkslategray;
+}
+li:active {
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 300;
+}
+li{
+    list-style:none;
+}
