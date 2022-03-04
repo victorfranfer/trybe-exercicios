@@ -17,7 +17,7 @@ header {
 }
 
 nav {
-    background-color: cadetblue;
+    background-color: darkblue;
     color: whitesmoke;
     margin-left: -10px;
     margin-right: -50px;
@@ -88,7 +88,7 @@ aside li {
 
 .ref {
     display: inline-block;
-    background-color: cadetblue;
+    background-color: darkblue;
     color: whitesmoke;
     margin-left: -10px;
     margin-right: -200px;
