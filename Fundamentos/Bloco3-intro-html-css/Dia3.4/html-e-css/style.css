@@ -5,11 +5,11 @@ body {
 
 header {
     text-align: center;
-    background-color: #010101;
-    color: yellowgreen;
+    background-color: crimson;
+    color: white;
     margin-left: -10px;
     margin-top: -10px;
-    margin-right: -25px;
+    margin-right: -50px;
     margin-bottom: -20px;
     padding-top: 3px;
     height: 60px;
@@ -18,25 +18,28 @@ header {
 
 nav {
     background-color: cadetblue;
+    color: whitesmoke;
     margin-left: -10px;
-    margin-right: -25px;
+    margin-right: -50px;
 }
 
 nav li {
     list-style-type: none;
     display: inline-block;
     margin-right: 30px;
+    margin-left: 30px;
     margin-bottom: 20px;
     padding-top: 15px;
 }
 
-main {
-    background-color:darkgoldenrod;
+main h2{
+    margin-left: 50px;
 }
 
 aside {
     float: right;
     background-color: crimson;
+    color: whitesmoke;
     text-align: justify;
 }
 
@@ -48,4 +51,84 @@ aside li {
     margin-right: 10px;
     margin-left: -20px;
     list-style-type: none;
+}
+
+.cores {
+    margin-bottom: 70px;
+}
+
+.cores img{
+   float: left;
+   margin-right: 5px;
+   border-radius: 40%; 
+}
+
+.boxe {
+    margin-bottom: 70px;
+    float: left;
+}
+
+.boxe img {
+    float: left;
+    margin-top: 15px;
+    margin-right: 5px;
+    border-radius: 40%;
+}
+
+.aquario {
+    margin-bottom: 70px;
+    float: right;
+}
+
+.aquario img {
+    float: left;
+    margin-right: 5px;
+    border-radius: 40%;
+}
+
+.ref {
+    display: inline-block;
+    background-color: cadetblue;
+    color: whitesmoke;
+    margin-left: -10px;
+    margin-right: -200px;
+    margin-bottom: 100px;
+}
+
+.ref h3 {
+    margin-left: 40px;
+}
+
+.ref a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.ref li {
+    display: inline-block;
+    margin-right: 90px;
+}
+
+.ref a:hover {
+    color: crimson;
+}
+
+.video {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+footer {
+    display: block;
+    background-color: crimson;
+    color: whitesmoke;
+    height: 50px;
+    margin-bottom: -10px;
+    margin-left: -10px;
+    margin-right: -50px;
+    margin-top: -20px;
+}
+
+footer p {
+    margin-left: 20px;
 }
