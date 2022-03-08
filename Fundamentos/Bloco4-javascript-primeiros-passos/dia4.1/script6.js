@@ -1,11 +1,8 @@
 //let piece = ['Bishop', 'Knight', 'King', 'Queen', 'Rook', 'Pawn'];
 //piece.toLowerCase();
 
-let bishop = 'Bishop';
-bishop.toLowerCase();
-
-let knight = 'KNIGHT';
-knight.toLowerCase();
+let piece = 'Bishop';
+piece.toLowerCase();
 
 switch(piece) {
     case 'Bishop':
