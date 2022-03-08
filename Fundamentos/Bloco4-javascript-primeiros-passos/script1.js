@@ -38,16 +38,28 @@ for (let i = 1; i < numbers.length; i += 1) {
 }
 console.log(max); */
 
+/* 6 INCOMPLETE 
 let odd = 0;
 
 for (let i = 0; i < numbers.length; i += 1) {
     if (numbers[i] % 2 === !0) {
         odd += 1;
+        console.log(odd);
     }
-    else ;
-}
+    else if (odd === !0) {
+        console.log(odd);
+    }
+    else console.log('nenhum valor encontrado');
+} */
 
-if (odd === !0) {
-    console.log(odd);
+/* 7
+let min = numbers[0];
+
+for (let i = 1; i < numbers.length; i += 1) {
+    if (min > numbers[i]) {
+        min = numbers[i]
+    }
 }
-else console.log('nenhum valor encontrado');
+console.log(min); */
+
+
