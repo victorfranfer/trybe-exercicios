@@ -22,3 +22,20 @@
 // console.log(word);
 // console.log(reverse(word));
 
+// 3 - DONE
+// let arr = ['java', 'javascript', 'python', 'html', 'css'];
+// let lgth = 0;
+// let longest;
+
+// for (let i = 0; i < arr.length; i += 1) {
+//     if (arr[i].length > lgth) {
+//         lgth = arr[i].length;
+//         longest = arr[i];
+//     }
+// }
+
+// console.log(longest);
+
+
+
+
