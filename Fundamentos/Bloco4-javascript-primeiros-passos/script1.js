@@ -38,19 +38,19 @@ for (let i = 1; i < numbers.length; i += 1) {
 }
 console.log(max); */
 
-/* 6 INCOMPLETE 
-let odd = 0;
+/* 6
+var odd = 0;
 
-for (let i = 0; i < numbers.length; i += 1) {
-    if (numbers[i] % 2 === !0) {
+for (number of numbers) {
+    if (number % 2 > 0) {
         odd += 1;
-        console.log(odd);
     }
-    else if (odd === !0) {
-        console.log(odd);
+    else if (number % 2 === 0) {
+        odd = odd;
     }
     else console.log('nenhum valor encontrado');
-} */
+}
+console.log(odd); */
 
 /* 7
 let min = numbers[0];
