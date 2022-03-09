@@ -53,9 +53,9 @@
 // 5. Crie um algoritmo que recebe a idade de Marcella, Carlos e Camila e imprima quem é a mais nova no formato:
 // “Pessoa” é a mais nova.
 
-let Marcela = 35;
-let Carlos = 15;
-let Camila = 40;
-let maisNovo = 
+// let Marcela = 35;
+// let Carlos = 15;
+// let Camila = 40;
+// let maisNovo = 
 
-if (Marcela)
+// if (Marcela)
