@@ -76,3 +76,54 @@ function displayHolidays() {
 };
 
 displayHolidays();
+
+function createButtonFriday(buttonName) {
+  let buttonContainer = document.querySelector('.buttons-container');
+  let newButton = document.createElement('button');
+  let newButtonID = 'btn-friday';
+
+  newButton.innerHTML = buttonName;
+  newButton.id = newButtonID;
+  buttonContainer.appendChild(newButton);
+};
+
+createButtonHolidays('Sexta-feira');
+
+function displayFridays(fridaysArray) {
+  let getFridayButton = document.querySelector('#btn-friday');
+  let fridays = document.getElementsByClassName('friday');
+  let newFridayText = 'SEXTOU!';
+
+  getFridayButton.addEventListener('click', function() {
+    for (let i = 0; i < fridays.length; i += 1) {
+      if (fridays[i].innerHTML !== newFridayText) {
+          fridays[i].innerHTML = newFridayText;
+      } else {
+        fridays[i].innerHTML = fridaysArray[i];
+      }
+    }
+  })
+};
+let dezFridays = [4, 11, 18, 25];
+displayFridays(dezFridays);
+
+function dayMouseOver() {
+  let days = document.querySelector('#days');
+
+  days.addEventListener('mouseover', function(event) {
+    event.target.style.fontSize = '30px';
+    event.target.style.fontWeight = '600';
+  })
+};
+
+function dayMouseOut() {
+  let days = document.querySelector('#days');
+
+  days.addEventListener('mouseout', function(event) {
+    event.target.style.fontWeight = '200';
+    event.target.style.fontSize = '20px';
+  })
+};
+
+dayMouseOver();
+dayMouseOut();
