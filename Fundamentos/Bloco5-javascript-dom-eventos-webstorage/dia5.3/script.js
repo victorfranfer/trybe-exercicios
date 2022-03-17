@@ -45,3 +45,34 @@ for (let i = 0; i < dezDaysList.length; i += 1) {
 };
 
 createDays();
+
+function createButtonHolidays(buttonName) {
+  let buttonContainer = document.querySelector('.buttons-container');
+  let newButton = document.createElement('button');
+  let newButtonID = 'btn-holiday';
+
+  newButton.innerHTML = buttonName;
+  newButton.id = newButtonID;
+  buttonContainer.appendChild(newButton);
+};
+
+createButtonHolidays('Feriados');
+
+function displayHolidays() {
+  let getHolidayButton = document.querySelector('#btn-holiday');
+  let getHolidays = document.querySelectorAll('.holiday');
+  let backgroundColor = 'rgb(238,238,238)';
+  let setNewColor = 'white';
+
+  getHolidayButton.addEventListener('click', function() {
+    for (let i = 0; i < getHolidays.length; i += 1) {
+      if (getHolidays[i].style.backgroundColor === setNewColor) {
+        getHolidays[i].style.backgroundColor = backgroundColor;
+      } else {
+        getHolidays[i].style.backgroundColor = setNewColor;
+      }
+    }
+  })
+};
+
+displayHolidays();
