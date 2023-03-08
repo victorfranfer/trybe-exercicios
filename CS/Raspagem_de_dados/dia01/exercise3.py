@@ -2,13 +2,16 @@
 # Faça uma requisição a https://scrapethissite.com/pages/advanced/?gotcha=headers e verifique se foi bem sucedida.
 import requests
 
-class crawler:
-    def get_request(path, headers):
-        response = requests.get(path, headers)
+class Crawler:
+    def __init__(self, path, headers):
+        self.path = path
+        self.headers = headers
+        response = requests.get(path, headers=headers)
         assert "bot detected" not in response.text
         print(response.text)
 
-    get_request(path="https://scrapethissite.com/pages/advanced/?gotcha=headers", headers={"User-agent": "Mozilla", "Accept": "text/html"})
+if __name__ == "__main__":
+    crawler1 = Crawler(path="https://scrapethissite.com/pages/advanced/?gotcha=headers", headers={"User-agent": "Mozilla", "Accept": "text/html"})
 
 
 # response = requests.get("https://scrapethissite.com/pages/advanced/?gotcha=headers", headers={"User-agent": "Mozilla", "Accept": "text/html"})
